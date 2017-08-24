@@ -86,22 +86,8 @@
                 "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"Vie Sante template#header3-s\" data-toolbar=\"-mbrBtnMove\">Saiba Mais</a>"
               },
               {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/shutterstock-111752981-cropped2flip-1-2000x1125.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "contentAlign": "right",
-                "showTitle": true,
-                "title": "AGORA VOCE PODE!",
-                "showText": true,
-                "text": "A Vie Santé tem um jeito novo e todo especial <br>de cuidar da sua família&nbsp;",
-                "showButtons": true,
-                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"Vie Sante template#gallery1-5\" data-toolbar=\"-mbrBtnMove\">Conheça nossa estrutura</a>"
-              },
-              {
                 "active": true,
-                "image": "@PROJECT_PATH@/assets/images/shutterstock-3-2000x1333.jpg",
+                "image": "@PROJECT_PATH@/assets/images/shutterstock-111752981-cropped2flip-1-2000x1125.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": true,
@@ -109,7 +95,7 @@
                 "showTitle": true,
                 "title": "AGENDE SUA CONSULTA",
                 "showText": true,
-                "text": "Preencha o formulário e nós entraremos em contato",
+                "text": "Preencha o formulário e nós entraremos em contato<br>",
                 "showButtons": true,
                 "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"Vie Sante template#form1-c\" data-toolbar=\"-mbrBtnMove\">Agende sua consulta</a>"
               }
