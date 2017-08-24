@@ -493,7 +493,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/shutterstock-2-600x400.jpg",
+              "src": "@PROJECT_PATH@/assets/images/shutterstock-4-600x400.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
