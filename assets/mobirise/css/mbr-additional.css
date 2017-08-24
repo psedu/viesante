@@ -1,7 +1,7 @@
-@import url(../../../https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
-@import url(../../../https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(../../../https://fonts.googleapis.com/css?family=Lora:400,700);
-@import url(../../../https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 
 
 
@@ -485,40 +485,18 @@ h6,
   color: #efefef;
 }
 #features3-k H4 {
-  color: #383434;
+  color: #232323;
 }
-#features3-k P {
-  color: #383434;
-}
-#msg-box8-1a .mbr-section-title,
-#msg-box8-1a p {
+#msg-box8-p .mbr-section-title,
+#msg-box8-p p {
   color: #fff;
 }
-#msg-box8-1a .mbr-section-title {
+#header3-s .mbr-section-title,
+#header3-s .mbr-section-subtitle {
   text-align: center;
 }
-#content7-1c P {
-  color: #383434;
-}
-#header3-17 .mbr-section-title,
-#header3-17 .mbr-section-subtitle {
-  text-align: center;
-}
-#header3-17 .mbr-section-title {
-  color: #383434;
-}
-#features3-19 P {
+#features3-t P {
   text-align: left;
-  color: #383434;
-}
-#features3-19 B {
-  color: #383434;
-}
-#features3-19 H4 {
-  color: #383434;
-}
-#features3-19 I {
-  color: #383434;
 }
 #social-buttons4-n .mbr-section-title,
 #social-buttons4-n .btn-social {

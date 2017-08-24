@@ -19,26 +19,21 @@
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": true,
         "isRtl": false
-      },
-      "additionalSetColors": [
-        "#81c0cb",
-        "#383434",
-        "#7e2a95"
-      ]
+      }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 49,
-    "versionPublish": "4.1.0",
+    "uniqCompNum": 30,
+    "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@",
-    "favicon": "",
+    "favicon": "@PROJECT_PATH@/assets/images/logo-vie-sante-clinica-popular-01-128x128-1.png",
     "noImageResize": "",
-    "google-analytics": ""
+    "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-105051420-1', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>"
   },
   "pages": {
     "Vie Sante template": {
       "settings": {
         "main": true,
-        "title": "Index",
+        "title": "",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -58,15 +53,12 @@
           },
           "_params": {
             "autoplay": true,
-            "fullScreen": true,
             "paddingTop": 3,
             "paddingBottom": 3,
-            "showBullets": true,
-            "bgColor": "#fff",
             "timeout": 5,
             "slides": [
               {
-                "active": true,
+                "active": false,
                 "image": "@PROJECT_PATH@/assets/images/shutterstock-2000x1340.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
@@ -77,7 +69,7 @@
                 "showText": true,
                 "text": "A qualidade que a sua família merece a preços que cabem no bolso&nbsp;",
                 "showButtons": true,
-                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"Vie Sante template#msg-box8-1a\" data-toolbar=\"-mbrBtnMove\">Especialidades</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"Vie Sante template#features3-19\" data-toolbar=\"-mbrBtnMove\">Convênios</a>"
+                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"Vie Sante template#msg-box8-p\" data-toolbar=\"-mbrBtnMove\">Especialidades</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"Vie Sante template#header3-s\" data-toolbar=\"-mbrBtnMove\">Convênios</a>"
               },
               {
                 "active": false,
@@ -91,7 +83,7 @@
                 "showText": true,
                 "text": "Conheça nossos convênios individual e familiar",
                 "showButtons": true,
-                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"Vie Sante template#features3-19\" data-toolbar=\"-mbrBtnMove\">Saiba Mais</a>"
+                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"Vie Sante template#header3-s\" data-toolbar=\"-mbrBtnMove\">Saiba Mais</a>"
               },
               {
                 "active": false,
@@ -106,8 +98,25 @@
                 "text": "A Vie Santé tem um jeito novo e todo especial <br>de cuidar da sua família&nbsp;",
                 "showButtons": true,
                 "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"Vie Sante template#gallery1-5\" data-toolbar=\"-mbrBtnMove\">Conheça nossa estrutura</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/shutterstock-1-2000x1333.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "AGENDE SUA CONSULTA",
+                "showText": true,
+                "text": "Preencha o formulário e nós entraremos em contato",
+                "showButtons": true,
+                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"Vie Sante template#form1-c\" data-toolbar=\"-mbrBtnMove\">Agende sua consulta</a>"
               }
-            ]
+            ],
+            "fullScreen": true,
+            "bgColor": "#fff",
+            "showBullets": true
           },
           "_anchor": "slider-m",
           "articleLayout": false
@@ -168,17 +177,17 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-e",
           "_params": {
-            "logo": true,
-            "showBrand": false,
-            "hideButtons": true,
-            "sticky": true,
-            "collapsed": true,
-            "transparent": false,
             "bgColor": "#ffffff",
             "fontSize": "0.9",
             "fontName": {},
             "fontColor": "#962820",
-            "fontHoverColor": "@primaryColor"
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
           },
           "logo": {
             "image": {
@@ -197,7 +206,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Vie Sante template#msg-box5-g\">SOBRE NÓS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Vie Sante template#features3-k\">SERVIÇOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Vie Sante template#features3-19\" target=\"_blank\">CONVÊNIOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Vie Sante template#msg-box8-1a\" target=\"_blank\">ESPECIALIDADES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Vie Sante template#contacts2-9\">CONTATO</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Vie Sante template#msg-box5-g\">SOBRE NÓS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Vie Sante template#features3-k\">SERVIÇOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" target=\"_blank\">CONVÊNIOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" target=\"_blank\">ESPECIALIDADES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Vie Sante template#contacts2-9\">CONTATO</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_tags": [
@@ -217,25 +226,25 @@
           },
           "_anchor": "msg-box5-g",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": true,
             "imageSize": 50,
             "paddingTop": "3",
             "paddingBottom": "3",
+            "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
             "bgColor": "#81c0cb",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "overlayOpacity": 0.5
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
           },
           "media": {
             "image": {
@@ -260,7 +269,7 @@
             }
           },
           "title": "Qualidade ao alcance de todos",
-          "text": "A Vie Santé nasceu com o propósito de oferecer acesso à saúde de qualidade para as pessoas.&nbsp;<span style=\"font-size: 1.07rem; line-height: 1.5;\">Agilidade para agendar consultas e exames, preços acessíveis e um atendimento de primeira, como você e sua família merecem.</span><br><br>",
+          "text": "A Vie Santé nasceu com o propósito de oferecer acesso à saúde de qualidade para as pessoas. Agilidade para agendar consultas e exames, preços acessíveis e um atendimento de primeira, como você e sua família merecem.<br><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
         },
         {
@@ -270,26 +279,26 @@
           "_name": "features3",
           "_anchor": "features3-k",
           "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 4,
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
             "ShowTexts": true,
-            "showButtons": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "columns": 4,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "showButtons": true
           },
           "media1": {
             "image": {
@@ -306,19 +315,23 @@
           "title1": "Consultas&nbsp;",
           "subtitle1": "Com médicos e demais especialistas da saúde",
           "caption1": "Contamos com mais de 20 especialistas, dentre eles médicos, psicólogos, fisioterapeutas, prontos pra te atender com qualidade, sem pressa e tirar todas as suas dúvidas.&nbsp;",
-          "button1": "<a data-app-btn=\"true\" href=\"Vie Sante template#content7-1c\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">Conheça nossas especialidades</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"Vie Sante template#content7-r\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">Conheça nossas especialidades</a>",
           "media2": {
             "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
+              "src": "@PROJECT_PATH@/assets/images/bigstock-extended-family-relaxing-on-so-600x400.jpg",
               "class": "card-img-top",
               "width": 600,
-              "active": true
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             }
           },
           "title2": "Convênios para a família e para empresas",
           "subtitle2": "Modalidades à partir de R$ 50,00",
           "caption2": "Para oferecer maior conforto e segurança na hora de se consultar, a Clínica Vie Santé criou os convênios individual e familiar, que dá direito a consultas e descontos em exames e tratamentos a longo prazo.",
-          "button2": "<a data-app-btn=\"true\" href=\"Vie Sante template#features3-19\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">Clique para mais informações</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"Vie Sante template#header3-s\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">Clique para mais informações</a>",
           "media3": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/shutterstock-600x400.jpg",
@@ -334,7 +347,7 @@
           "title3": "Pequenas cirurgias",
           "subtitle3": "&nbsp;",
           "caption3": "Realizamos cirurgias de baixa complexidade como vazectomia, retirada de pintas, cistos cebáceos, entre outras, a preços populares.",
-          "button3": "<a data-app-btn=\"true\" href=\"Vie Sante template#contacts2-9\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">Entre em contato e saiba mais</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"Vie Sante template#form1-c\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">Entre em contato e saiba mais</a>",
           "media4": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/shutterstock-1-600x400.jpg",
@@ -350,7 +363,7 @@
           "title4": "Exames&nbsp;",
           "subtitle4": "A preços que cabem no bolso",
           "caption4": "<span style=\"font-size: 1rem; line-height: 1.5;\">A Vie Santé oferece exames laboratoriais e de imagem a preços muito abaixo dos de mercado por meio da nossa rede de clínicas e laboratórios parceiros.</span><br>",
-          "button4": "<a data-app-btn=\"true\" href=\"Vie Sante template#contacts2-9\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">Entre em contato e saiba mais</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"Vie Sante template#form1-c\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">Entre em contato e saiba mais</a>",
           "media5": {
             "image": {
               "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
@@ -377,10 +390,7 @@
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "_styles": {
             "H4": {
-              "color": "#383434"
-            },
-            "P": {
-              "color": "#383434"
+              "color": "#232323"
             }
           }
         },
@@ -388,108 +398,102 @@
           "_styles": {
             ".mbr-section-title, p": {
               "color": "#fff"
-            },
-            ".mbr-section-title": {
-              "text-align": "center"
             }
           },
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButton": false,
-            "paddingTop": "1",
-            "paddingBottom": "4",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/sem-ttulo-1999x777.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#F2F2F2",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "CONHEÇA NOSSO TIME DE ESPECIALISTAS",
-          "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box8",
-          "_anchor": "msg-box8-1a"
+          "_anchor": "msg-box8-p",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/sem%20t%C3%ADtulo-2000x777.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false
+          },
+          "title": "CONHEÇA NOSSO TIME DE ESPECIALISTAS",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
         },
         {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content7",
+          "_anchor": "content7-r",
           "_params": {
             "paddingTop": 1,
             "paddingBottom": 1,
             "bgColor": "#81c0cb"
           },
-          "text1": "<p><b>Acupuntura</b>\n</p><p><i>Dra Eliane Pitzer Jacob\n</i></p><p>\n</p><p><b style=\"font-size: 1.07rem;\">Alergologia (Alergista)</b><br></p><p><i>Dr. Sandro Manes\n</i></p><p>\n</p><p><b style=\"font-size: 1.07rem;\">Anestesia</b><br></p><p><i>Dra. Débora Nascimento\n</i></p><p>\n</p><p><b style=\"font-size: 1.07rem;\">Cardiologia</b><br></p><p><i>Dr. Thalis Santana\n</i></p><p><b style=\"font-size: 1.07rem;\">Clínica Médica</b><br></p><p><i>Dra. Livia Cristina</i></p><p><i>Dr. Mozart Cunha</i></p><p><i> Dra. Vivian Werneck\n</i></p><p>\n</p><p><b style=\"font-size: 1.07rem;\">Cirurgia Geral</b><br></p><p><i>Dr. Luciano Quinellato\n</i></p><p>\n</p><p><b style=\"font-size: 1.07rem;\">Cirurgia Vascular</b><br></p><p><i>Dr. Leonardo Alvin\n</i></p><p>\n</p><p><b style=\"font-size: 1.07rem;\">Dermatologia e Dermatologia Estética</b><br></p><p><span style=\"font-size: 1.07rem;\"><i>Dr. Fernando Lopes</i></span><br></p><p>\n</p><p><b style=\"font-size: 1.07rem;\">Endocrinologia</b><br></p><p><i>Dra. Luciana Márcia Gama</i></p><p><i style=\"font-size: 1.07rem;\">Dra. Ana Carolina Dias</i></p><p>\n</p><p><br></p><p>\n</p><p><br></p>",
-          "text2": "<p><b>Gastroenterologista&nbsp;</b></p><p><i>Dra Luciene Aparecida Ribeiro de Souza</i></p><p><b>Geriatria\n</b></p><p><i>Dra. Vivian Werneck</i></p><p><b>Ginecologia, Ginecologia Infantil e Adolescente\n</b></p><p><i>Dra. Marilia Quinellato\n</i></p><p><b style=\"font-size: 1.07rem;\">Homeopatia</b><br></p><p><i>Dra. Eliane Pitzer Jacob\n</i></p><p><b>Neurologia\n</b></p><p><i>Dr. Marco Aurélio\n</i></p><p><b>Oftalmologia\n</b></p><p><i>Dr. Danilo Dibbe\n</i></p><p><b>Ortopedia e Traumatologia\n</b></p><p><i>Dr. Bernardo Martins </i></p><p><i>Dr. Gustavo Zilling\n</i></p><p><b>Pediatria e Puericultura\n</b></p><p><i>Dr. João Quinellato\n</i></p><p><b>Reumatologia\n</b></p><p><i>Dr. Mozart Cunha\n</i></p><p><br></p><p><br></p>",
-          "text3": "<p><b>Urologia\n</b></p><p><i>Dr. Geraldo Magella\n</i></p><p><b>Cristaloterapia\n</b></p><p><i>Dra. Harumi Ueda Quinellato</i></p><p><b style=\"font-size: 1.07rem;\">Dermato-Estética</b><br></p><p><i>Dra. Lamara Rodrigues\n</i></p><p><b style=\"font-size: 1.07rem;\">Fisioterapia</b><br></p><p><i>Dra. Lamara Rodrigues\n</i></p><p><b>Fisioterapia Uroginecológica\n</b></p><p><i>Dra. Harumi Ueda Quinellato\n</i></p><p><b>Florais de Bach\n</b></p><p><i>Dra. Rosana Braz Vianna</i></p><p><b>Fonoaudiologia</b>\n</p><p><i>Dra. Graciene Cerqueira Dornelas\n</i></p><p><b>Nutrição\n</b></p><p><i>Dra. Dilvana Hoff Alexandre\n</i></p><p><b>Psicologia\n</b></p><p><i>Dra. Elisa Regina Fonseca de Azevedo</i></p><p><i>Dra. Rosana Braz Vianna</i></p><p><b>Psiquiatria</b></p><p><i>Dra Priscilla Bedeschi</i></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content7",
-          "_anchor": "content7-1c",
-          "_styles": {
-            "P": {
-              "color": "#383434"
-            }
-          }
+          "text1": "<p><b>Acupuntura</b></p><p><i>Dra Eliane Pitzer Jacob</i></p><p><b>Alergologia (Alergista)</b></p><p><i>Dr. Sandro Manes</i></p><p><b>Anestesia</b></p><p><i>Dra. Débora Nascimento</i></p><p><b>Cardiologia</b></p><p><i>Dr. Thalis Santana</i></p><p><b>Clínica Médica</b></p><p><i style=\"font-size: 1.07rem; line-height: 1.5;\">Dr. Mozart Cunha</i><br></p><p><i>Dra. Vivian Werneck</i></p><p><b>Cirurgia Geral</b></p><p><i>Dr. Luciano Quinellato</i></p><p><b>Cirurgia Vascular</b></p><p><i>Dr. Leonardo Alvin</i></p><p><b>Dermatologia e Dermatologia Estética</b></p><p><i>Dr. Fernando Lopes</i></p><p><b>Endocrinologia</b></p><p><i>Dra. Luciana Márcia Gama</i></p><p><i>Dra. Natalia Gesualdo Lopes</i></p>",
+          "text2": "<p><b>Gastroenterologista&nbsp;</b></p><p><i>Dra Luciene Aparecida Ribeiro de Souza</i></p><p><b>Geriatria</b></p><p><i>Dra. Vivian Werneck</i></p><p><b>Ginecologia, Ginecologia Infantil e Adolescente</b></p><p><i>Dra. Marilia Quinellato</i></p><p><b>Homeopatia</b></p><p><i>Dra. Eliane Pitzer Jacob</i></p><p><b>Neurologia</b></p><p><i>Dr. Eduardo Motta</i></p><p><b>Oftalmologia</b></p><p><i>Dr. Danilo Dibbe</i></p><p><i><span style=\"font-size: 1.07rem; line-height: 1.5;\">Dr. Bernardo Martins</span><br></i></p><p><i>Dr. Gustavo Zilling</i></p><p><b>Pediatria e Puericultura</b></p><p><i>Dr. João Quinellato</i></p><p><b>Reumatologia</b></p><p><i>Dr. Mozart Cunha</i></p>",
+          "text3": "<p><b>Urologia</b></p><p><i>Dr. Geraldo Magella</i></p><p><b>Cristaloterapia</b></p><p><i>Dra. Harumi Ueda Quinellato</i></p><p><b>Dermato-Estética</b></p><p><i>Dra. Lamara Rodrigues</i></p><p><b>Fisioterapia</b></p><p><i>Dra. Lamara Rodrigues</i></p><p><b>Fisioterapia Uroginecológica</b></p><p><i>Dra. Harumi Ueda Quinellato</i></p><p><b>Florais de Bach</b></p><p><i>Dra. Rosana Braz Vianna</i></p><p><b>Fonoaudiologia</b></p><p><i>Dra. Graciene Cerqueira Dornelas</i></p><p><b>Nutrição</b></p><p><i>Dra. Dilvana Hoff Alexandre</i></p><p><b>Psicologia</b></p><p><i>Dra. Elisa Regina Fonseca de Azevedo</i></p><p><i>Dra. Rosana Braz Vianna</i></p><p><b>Psiquiatria</b></p><p><i>Dra Priscilla Bedeschi</i></p>"
         },
         {
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
-            },
-            ".mbr-section-title": {
-              "color": "#383434"
             }
           },
-          "_params": {
-            "showMeta": true,
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#efefef"
-          },
-          "title": "Convênios que cabem no bolso",
-          "meta": "Os convênios Vie Santé são ideais pra quem não tem plano de saúde, mas quer ter acesso ao atendimento médico de qualidade",
           "_tags": [
             "Theme"
           ],
           "_name": "header3",
-          "_anchor": "header3-17"
+          "_anchor": "header3-s",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "Convênios que cabem no bolso",
+          "meta": "Os convênios Vie Santé são ideais pra quem não tem plano de saúde, mas quer ter acesso ao atendimento médico de qualidade"
         },
         {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-t",
           "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "2",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
             "ShowTexts": true,
-            "showButtons": false,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "columns": "2",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#efefef",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "showButtons": false
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/shutterstock-3-600x400.jpg",
+              "src": "@PROJECT_PATH@/assets/images/shutterstock-2-600x400.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -499,6 +503,10 @@
               "linkInNewWindow": false
             }
           },
+          "title1": "Convênio Individual",
+          "subtitle1": "Ideal para uma pessoa",
+          "caption1": "Essa modalidade pode ser utilizada por apenas uma pessoa.<br><br><b>Benefícios:</b><br>02 consultas mensais com qualquer médico especialista; <br>02 revisões mensais;<br>Preços acessíveis em procedimentos cirúrgicos de baixa complexidade, exames laboratoriais e de imagem (esses valores variam de acordo com o procedimento); <br>Fisioterapia a R$20,00 a sessão (pacote mínimo de 10 sessões); <br>Sessão com psicólogo, fonoaudiólogo, terapia de florais e nutricionista a R$40,00. A primeira consulta com os profissionais dessas áreas é R$70,00 (esses valores não estão inclusos na mensalidade do convênio)<br><br><b>Vantagens: </b><br>Sem limite de idade <br>Consultas com mais de 20 especialidades médicas <br>Agendamento Imediato <br>Modernas instalações e consultórios climatizados<br><b><br>Valor</b><br>R$80,00 por mês (carência de 30 dias)<br>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/familia-feliz-600x399.jpg",
@@ -511,6 +519,10 @@
               "linkInNewWindow": false
             }
           },
+          "title2": "Convênio Familiar",
+          "subtitle2": "Convênio Familiar",
+          "caption2": "O convênio familiar pode ser utilizado por até 05 pessoa (titular + 4 familiares) <br><br><b>Benefícios </b><br>Descontos em todas as especialidades da clínica; <br>Consulta com qualquer especialidade médica: R$70,00 cada (com direito a revisão) <br>Preços acessíveis em procedimentos cirúrgicos de baixa complexidade, exames laboratoriais e de imagem <br>Fisioterapia a R$20,00 a sessão <br>Sessão com psicólogo, fonoaudiólogo, terapia de florais e nutricionista a R$40,00. A primeira consulta com os profissionais dessas áreas é R$70,00<br><br><b>Vantagens: </b><br>Sem limite de idade <br>Consultas com mais de 20 especialidades médicas <br>Agendamento Imediato <br>Modernas instalações e consultórios climatizados<br><br><b>Valor</b> <br>R$50,00 por mês (sem carência)<br>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "image": {
               "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
@@ -519,6 +531,10 @@
               "active": true
             }
           },
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
             "image": {
               "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
@@ -527,6 +543,10 @@
               "active": true
             }
           },
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media5": {
             "image": {
               "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
@@ -535,6 +555,10 @@
               "active": true
             }
           },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media6": {
             "image": {
               "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
@@ -543,48 +567,13 @@
               "active": true
             }
           },
-          "title1": "Convênio Individual",
-          "subtitle1": "Ideal para uma pessoa",
-          "caption1": "Essa modalidade pode ser utilizada por apenas uma pessoa.<br><br><b>Benefícios:</b><br>02 consultas mensais com qualquer médico especialista;&nbsp;<br>02 revisões mensais;<br>Preços acessíveis em procedimentos cirúrgicos de baixa complexidade, exames laboratoriais e de imagem (esses valores variam de acordo com o procedimento);&nbsp;<br>Fisioterapia a R$20,00 a sessão (pacote mínimo de 10 sessões);&nbsp;<br>Sessão com psicólogo, fonoaudiólogo, terapia de florais e nutricionista a R$40,00. A primeira consulta com os profissionais dessas áreas é R$70,00 (esses valores não estão inclusos na mensalidade do convênio)<br>\n<br><b>Vantagens:\n</b><br>Sem limite de idade\n<br>Consultas com mais de 20 especialidades médicas\n<br>Agendamento Imediato\n<br>Modernas instalações e consultórios climatizados<br><br><b>Valor</b><br>R$80,00 por mês <i>(carência de 30 dias)</i><br>",
-          "title2": "Convênio Familiar",
-          "subtitle2": "Ideal para grupo familiar",
-          "caption2": "O convênio familiar pode ser utilizado por até 05 pessoa (titular + 4 familiares)\n<br><br><b>Benefícios\n</b><br>Descontos em todas as especialidades da clínica;&nbsp;<br>Consulta com qualquer especialidade médica: R$70,00 cada (com direito a revisão)\n<br>Preços acessíveis em procedimentos cirúrgicos de baixa complexidade, exames laboratoriais e de imagem\n<br>Fisioterapia a R$20,00 a sessão\n<br>Sessão com psicólogo, fonoaudiólogo, terapia de florais e nutricionista a R$40,00. A primeira consulta com os profissionais dessas áreas é R$70,00<br><br><b>Vantagens:\n</b><br>Sem limite de idade\n<br>Consultas com mais de 20 especialidades médicas\n<br>Agendamento Imediato\n<br>Modernas instalações e consultórios climatizados<br><br><b>Valor\n</b><br>R$50,00 por mês <i>(sem carência)</i><br>",
-          "title3": "Web Fonts",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "title4": "Unlimited Sites",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "title5": "Trendy Website Blocks",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "features3",
-          "_anchor": "features3-19",
           "_styles": {
             "P": {
-              "text-align": "left",
-              "color": "#383434"
-            },
-            "B": {
-              "color": "#383434"
-            },
-            "H4": {
-              "color": "#383434"
-            },
-            "I": {
-              "color": "#383434"
+              "text-align": "left"
             }
           }
         },
@@ -594,15 +583,8 @@
           ],
           "_name": "gallery1",
           "_params": {
-            "showBullets": true,
-            "fullWidth": false,
-            "spacing": 0,
             "paddingTop": 0,
             "paddingBottom": 0,
-            "filterBgColor": false,
-            "bgColor": "#FFFFFF",
-            "showText": false,
-            "filter": false,
             "images": [
               {
                 "tags": "Awesome",
@@ -684,7 +666,14 @@
                 "caption": "Type caption here",
                 "active": true
               }
-            ]
+            ],
+            "spacing": 0,
+            "showText": false,
+            "filter": false,
+            "bgColor": "#FFFFFF",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
           },
           "_anchor": "gallery1-5",
           "articleLayout": false,
@@ -710,16 +699,16 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
             "bgColor": "#962820",
+            "bgColorRadio": true,
             "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222"
           },
           "text": "Segue a gente e acompanhe as dicas e conteúdos da Vie Santé pra cuidar da sua saúde e da saúde da sua família",
-          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/clinicapopularviesante\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/clinica_viesante\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a>      "
+          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/clinicapopularviesante\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://www.instagram.com/clinica_viesante/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a>      "
         },
         {
           "_tags": [
@@ -733,19 +722,19 @@
           },
           "_anchor": "form1-c",
           "_params": {
-            "showTitle": true,
-            "showSubTitle": true,
             "labelsColor": "#232323",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#fff",
+            "bgColorRadio": true,
             "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "showTitle": true,
+            "showSubTitle": true
           },
           "title": "Entre em contato conosco",
           "subtitle": "Preencha o formulário para tirar dúvidas ou agendar consultas e exames. No caso de consultas, especifique a&nbsp;<br>especialidade que gostaria de agendar. Não deixe de colocar os seus dados de contato para que nossa equipe consiga te retornar.&nbsp;",
@@ -797,13 +786,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#553982",
+            "bgColorRadio": true,
             "overlay": true,
-            "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
             "googleMap": {
               "address": "Rua 40, 42, Vila Santa Cecília",
               "placeId": "ChIJVVvLbHKYngAReaI2pYVYtYo",
